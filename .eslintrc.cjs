@@ -14,5 +14,6 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    'no-empty': 'off', // 关闭空函数体的检测
   },
 }
