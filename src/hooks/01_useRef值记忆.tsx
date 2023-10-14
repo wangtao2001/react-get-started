@@ -5,7 +5,7 @@ const App = () => {
     const [count, setCount] = useState(0)
 
     const num = useRef(0)
-    // ref的使用场景？？清楚定时器？
+    // ref的使用场景？清除定时器？
 
     const handelClick = () => {
         setCount(count+1)
